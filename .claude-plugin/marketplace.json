@@ -1,0 +1,21 @@
+{
+  "name": "elrincondeldev",
+  "owner": {
+    "name": "Jose Ramon Montes Hermida"
+  },
+  "metadata": {
+    "description": "Personal agent skills by elrincondeldev",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "description": "All skills in this repository",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/learn-codebase"
+      ]
+    }
+  ]
+}
