@@ -16,7 +16,8 @@
       "skills": [
         "./skills/learn-codebase",
         "./skills/grilling",
-        "./skills/code-review"
+        "./skills/code-review",
+        "./skills/create-pr"
       ]
     }
   ]
