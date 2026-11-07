@@ -31,6 +31,7 @@ As a Claude Code plugin:
 | --- | --- |
 | [learn-codebase](skills/learn-codebase/SKILL.md) | Interactive tutor that teaches you a whole repo lesson by lesson, checking that you really understand each part before moving on. Say "teach me this codebase". |
 | [grilling](skills/grilling/SKILL.md) | Stress-tests a plan, decision, or idea by interviewing you in rounds of numbered questions, each with a recommended answer, until nothing is left assumed. Say "grill me". From [mattpocock/skills](https://github.com/mattpocock/skills). |
+| [code-review](skills/code-review/SKILL.md) | Reviews the changes since a commit, branch, or tag on two separate axes, Standards (does it follow the repo's coding rules?) and Spec (does it do what the issue asked?), run as parallel subagents and reported side by side. Say "review since main". From [mattpocock/skills](https://github.com/mattpocock/skills). |
 
 ## Contributing
 
