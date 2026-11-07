@@ -17,7 +17,8 @@
         "./skills/learn-codebase",
         "./skills/grilling",
         "./skills/code-review",
-        "./skills/create-pr"
+        "./skills/create-pr",
+        "./skills/tdd"
       ]
     }
   ]
