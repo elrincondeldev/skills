@@ -30,6 +30,7 @@ As a Claude Code plugin:
 | Skill | What it does |
 | --- | --- |
 | [learn-codebase](skills/learn-codebase/SKILL.md) | Interactive tutor that teaches you a whole repo lesson by lesson, checking that you really understand each part before moving on. Say "teach me this codebase". |
+| [grilling](skills/grilling/SKILL.md) | Stress-tests a plan, decision, or idea by interviewing you in rounds of numbered questions, each with a recommended answer, until nothing is left assumed. Say "grill me". From [mattpocock/skills](https://github.com/mattpocock/skills). |
 
 ## Contributing
 

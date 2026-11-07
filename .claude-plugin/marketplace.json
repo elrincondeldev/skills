@@ -14,7 +14,8 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/learn-codebase"
+        "./skills/learn-codebase",
+        "./skills/grilling"
       ]
     }
   ]
