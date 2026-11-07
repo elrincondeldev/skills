@@ -18,7 +18,8 @@
         "./skills/grilling",
         "./skills/code-review",
         "./skills/create-pr",
-        "./skills/tdd"
+        "./skills/tdd",
+        "./skills/prototype"
       ]
     }
   ]
