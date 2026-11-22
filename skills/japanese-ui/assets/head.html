@@ -1,0 +1,22 @@
+<!--
+  Inside <head>. Set data-palette on <html> (haru, natsu, aki, fuyu, yoru or auto) and theme-color to
+  the palette's --paper. Replace BRUSH_GLYPHS with every character the page draws in the brush font
+  (numerals, section kanji, hanko text, interlude word), deduplicated and URL-encoded.
+-->
+<meta name="theme-color" content="#f7f3eb" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Shippori+Mincho:wght@500;600;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&text=BRUSH_GLYPHS&display=swap" />
+<script>
+  document.documentElement.classList.add("js");
+</script>
+
+<!--
+  Building the glyph list at build time:
+  const glyphs = [...new Set([...sections.flatMap((s) => [s.numeral, s.kanji]), hankoText, interludeWord].join(""))].join("");
+  const href = `https://fonts.googleapis.com/css2?family=Yuji+Syuku&text=${encodeURIComponent(glyphs)}&display=swap`;
+-->

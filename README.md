@@ -35,6 +35,7 @@ As a Claude Code plugin:
 | [code-review](skills/code-review/SKILL.md) | Reviews the changes since a commit, branch, or tag on two separate axes, Standards (does it follow the repo's coding rules?) and Spec (does it do what the issue asked?), run as parallel subagents and reported side by side. Say "review since main". From [mattpocock/skills](https://github.com/mattpocock/skills). |
 | [tdd](skills/tdd/SKILL.md) | Builds features test-first: agrees the behaviors and where to test them with you, then implements one slice at a time through red → green and refactors with the suite green. Say "build this with TDD". Adapted from [mattpocock/skills](https://github.com/mattpocock/skills). |
 | [prototype](skills/prototype/SKILL.md) | Builds a throwaway prototype to answer one design question: a clickable HTML demo to test logic or a state model, or several switchable UI variants on a real page. Say "prototype this". Adapted from [mattpocock/skills](https://github.com/mattpocock/skills). |
+| [japanese-ui](skills/japanese-ui/SKILL.md) | Builds any website or web UI (landings, blogs, docs, shops, portfolios, dashboards, forms) in a calm Japanese aesthetic: washi paper and sumi ink, one accent, Mincho type, brush-kanji numerals, hanko seals, wagara patterns, five seasonal palettes including a dark one, and slow ease-out motion. Ships tokens, palettes, component and section recipes and a contrast checker. Say "make this site Japanese style". |
 
 ## Contributing
 
