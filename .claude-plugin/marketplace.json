@@ -19,7 +19,8 @@
         "./skills/code-review",
         "./skills/create-pr",
         "./skills/tdd",
-        "./skills/prototype"
+        "./skills/prototype",
+        "./skills/japanese-ui"
       ]
     }
   ]

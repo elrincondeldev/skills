@@ -1,0 +1,185 @@
+/*
+ * Seasonal palettes. Set one on <html data-palette="...">. Without the attribute the page uses the
+ * spring palette from tokens.css. Each palette overrides only role tokens, so every recipe works.
+ *
+ *   haru  春 spring  shu vermilion, sakura, matcha      (default, in tokens.css)
+ *   natsu 夏 summer  ai indigo, hydrangea, water
+ *   aki   秋 autumn  momiji red, persimmon, rice gold
+ *   fuyu  冬 winter  beni crimson, snow, pine
+ *   yoru  夜 night   dark sumi, moonlight, lantern red
+ */
+
+[data-palette="natsu"] {
+  --paper: #f3f4ef;
+  --paper-deep: #e5e9e2;
+  --card: #fcfdfa;
+  --ink: #1f2530;
+  --ink-2: #4a5260;
+  --ink-3: #5f6774;
+  --hairline: rgba(31, 37, 48, 0.1);
+  --hairline-strong: rgba(31, 37, 48, 0.18);
+  --tint: rgba(31, 37, 48, 0.06);
+  --glass: rgba(252, 253, 250, 0.72);
+  --halo: rgba(252, 253, 250, 0.7);
+  --accent: #2f5aa8;
+  --accent-strong: #284e93;
+  --accent-ink: #f4f7fc;
+  --accent-soft: #d9e3f3;
+  --accent-line: rgba(47, 90, 168, 0.45);
+  --accent-glow: rgba(47, 90, 168, 0.12);
+  --bloom: #a9bfe6;
+  --bloom-soft: #e6edf8;
+  --bloom-pale: #cbd8f0;
+  --leaf: #5f9468;
+  --leaf-glow: rgba(95, 148, 104, 0.18);
+  --deep: #1f3a5f;
+  --mist: #dcebea;
+  --gold: #c7a24f;
+  --sun-1: #fbe7b5;
+  --sun-2: #f4cf7a;
+  --sun-3: #ecb653;
+  --shadow-rgb: 30 52 84;
+}
+
+[data-palette="aki"] {
+  --paper: #f6efe4;
+  --paper-deep: #ecdfcc;
+  --card: #fffaf2;
+  --ink: #2a221d;
+  --ink-2: #594c43;
+  --ink-3: #6c5f55;
+  --hairline: rgba(42, 34, 29, 0.1);
+  --hairline-strong: rgba(42, 34, 29, 0.18);
+  --tint: rgba(42, 34, 29, 0.06);
+  --glass: rgba(255, 250, 242, 0.72);
+  --halo: rgba(255, 250, 242, 0.7);
+  --accent: #b8431f;
+  --accent-strong: #a33a1a;
+  --accent-ink: #fff6ee;
+  --accent-soft: #f2d6c4;
+  --accent-line: rgba(184, 67, 31, 0.45);
+  --accent-glow: rgba(184, 67, 31, 0.12);
+  --bloom: #e3a06b;
+  --bloom-soft: #f7e4d2;
+  --bloom-pale: #efc49c;
+  --leaf: #8a8a4a;
+  --leaf-glow: rgba(138, 138, 74, 0.2);
+  --deep: #4b3a5c;
+  --mist: #ece3d6;
+  --gold: #b8892f;
+  --sun-1: #f4c38f;
+  --sun-2: #e98d52;
+  --sun-3: #d96b3a;
+  --shadow-rgb: 90 50 20;
+}
+
+[data-palette="fuyu"] {
+  --paper: #f4f4f1;
+  --paper-deep: #e6e8e4;
+  --card: #fdfdfb;
+  --ink: #23252b;
+  --ink-2: #4c5058;
+  --ink-3: #61656d;
+  --hairline: rgba(35, 37, 43, 0.1);
+  --hairline-strong: rgba(35, 37, 43, 0.18);
+  --tint: rgba(35, 37, 43, 0.06);
+  --glass: rgba(253, 253, 251, 0.72);
+  --halo: rgba(253, 253, 251, 0.7);
+  --accent: #a8283a;
+  --accent-strong: #9a2334;
+  --accent-ink: #fdf3f4;
+  --accent-soft: #f1d3d7;
+  --accent-line: rgba(168, 40, 58, 0.45);
+  --accent-glow: rgba(168, 40, 58, 0.12);
+  --bloom: #c9d3dc;
+  --bloom-soft: #eef1f4;
+  --bloom-pale: #ffffff;
+  --leaf: #4f7564;
+  --leaf-glow: rgba(79, 117, 100, 0.18);
+  --deep: #2c3e55;
+  --mist: #e4e9ee;
+  --gold: #a98b52;
+  --sun-1: #f5d5d0;
+  --sun-2: #e9b3ad;
+  --sun-3: #d98c86;
+  --shadow-rgb: 40 50 70;
+}
+
+[data-palette="yoru"] {
+  --paper: #1b191f;
+  --paper-deep: #141217;
+  --card: #24212a;
+  --ink: #f1ebe1;
+  --ink-2: #c4bcb2;
+  --ink-3: #a39b93;
+  --hairline: rgba(241, 235, 225, 0.1);
+  --hairline-strong: rgba(241, 235, 225, 0.18);
+  --tint: rgba(241, 235, 225, 0.07);
+  --glass: rgba(36, 33, 42, 0.72);
+  --halo: rgba(255, 255, 255, 0.06);
+  --accent: #ec6a4c;
+  --accent-strong: #f08a70;
+  --accent-ink: #1b191f;
+  --accent-soft: #4a2a24;
+  --accent-line: rgba(236, 106, 76, 0.5);
+  --accent-glow: rgba(236, 106, 76, 0.16);
+  --bloom: #d98fa2;
+  --bloom-soft: #33262c;
+  --bloom-pale: #b97a8a;
+  --leaf: #9bb87e;
+  --leaf-glow: rgba(155, 184, 126, 0.2);
+  --deep: #8fa8d6;
+  --mist: #2a2e36;
+  --gold: #d8b46a;
+  --sun-1: #f6efe0; /* the sun becomes the moon */
+  --sun-2: #e6dac2;
+  --sun-3: #cdbd9a;
+  --night: #0f0e12;
+  --night-ink: #ece6dc;
+  --night-dim: #8f8796;
+  --shadow-rgb: 0 0 0;
+  --grain-opacity: 0.5;
+  --grain-blend: soft-light;
+  color-scheme: dark;
+}
+
+/* Opt in to following the system: <html data-palette="auto"> is haru by day and yoru by night. */
+@media (prefers-color-scheme: dark) {
+  [data-palette="auto"] {
+    --paper: #1b191f;
+    --paper-deep: #141217;
+    --card: #24212a;
+    --ink: #f1ebe1;
+    --ink-2: #c4bcb2;
+    --ink-3: #a39b93;
+    --hairline: rgba(241, 235, 225, 0.1);
+    --hairline-strong: rgba(241, 235, 225, 0.18);
+    --tint: rgba(241, 235, 225, 0.07);
+    --glass: rgba(36, 33, 42, 0.72);
+    --halo: rgba(255, 255, 255, 0.06);
+    --accent: #ec6a4c;
+    --accent-strong: #f08a70;
+    --accent-ink: #1b191f;
+    --accent-soft: #4a2a24;
+    --accent-line: rgba(236, 106, 76, 0.5);
+    --accent-glow: rgba(236, 106, 76, 0.16);
+    --bloom: #d98fa2;
+    --bloom-soft: #33262c;
+    --bloom-pale: #b97a8a;
+    --leaf: #9bb87e;
+    --leaf-glow: rgba(155, 184, 126, 0.2);
+    --deep: #8fa8d6;
+    --mist: #2a2e36;
+    --gold: #d8b46a;
+    --sun-1: #f6efe0;
+    --sun-2: #e6dac2;
+    --sun-3: #cdbd9a;
+    --night: #0f0e12;
+    --night-ink: #ece6dc;
+    --night-dim: #8f8796;
+    --shadow-rgb: 0 0 0;
+    --grain-opacity: 0.5;
+    --grain-blend: soft-light;
+    color-scheme: dark;
+  }
+}
